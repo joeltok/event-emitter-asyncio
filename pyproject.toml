@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "event_emitter_asyncio"
-version = "1.0.3"
+version = "1.0.4"
 authors = [
   { name="Joel Tok", email="jttctc@gmail.com" },
 ]
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/joeltok/py-event-bus"
-"Bug Tracker" = "https://github.com/joeltok/py-event-bus/issues"
+"Homepage" = "https://github.com/joeltok/event-emitter-asyncio"
+"Bug Tracker" = "https://github.com/joeltok/event-emitter-asyncio/issues"
