@@ -78,6 +78,6 @@ python3 -m pip install --upgrade twine
 ```
 
 ```sh
-python3 -m build
+rm -rf dist && python3 -m build
 twine upload dist/*
 ```
