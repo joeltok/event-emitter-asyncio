@@ -1,7 +1,7 @@
 import pytest
 import asyncio
 
-from EventBus import EventBus
+from .EventEmitter import EventEmitter
 
 @pytest.mark.asyncio
 async def test_subscribe_remove_and_emit():
@@ -13,7 +13,7 @@ async def test_subscribe_remove_and_emit():
   async def a_second(event_data): a_second_events.append(event_data)
   async def b_first(event_data): b_first_events.append(event_data)
 
-  event_bus = EventBus()
+  event_bus = EventEmitter()
   event_bus.add_listener('a', a_first)
   event_bus.add_listener('a', a_second)
   event_bus.add_listener('b', b_first)

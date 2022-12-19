@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "event_emitter_asyncio"
-version = "1.0.0"
+version = "1.0.2"
 authors = [
   { name="Joel Tok", email="jttctc@gmail.com" },
 ]
