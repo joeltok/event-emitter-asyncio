@@ -1,6 +1,6 @@
 # event-emitter-asyncio
 
-Super simple event bus in Python 3, built with asyncio. No decorators required. Built around a subset of the NodeJS [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) API. 
+Super simple event emitter in Python 3, built with asyncio. No decorators required. Built around a subset of the NodeJS [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) API. 
 
 A full write up and explanation for how this module works can be found [here](https://joeltok.com/blog/2021-3/building-an-event-bus-in-python).
 
@@ -30,7 +30,7 @@ This will give:
 
 ## Using this repo
 
-## Development
+### Development
 
 ```sh
 git clone git@github.com:joeltok/py-event-bus.git
@@ -41,13 +41,13 @@ pip3 install pytest
 pip3 install pytest-asyncio
 ```
 
-## Testing 
+### Testing 
 
 ```sh
 python3 -m pytest src/py-event-bus/
 ```
 
-## Packaging
+### Packaging
 
 ```sh
 source venv/bin/activate
