@@ -1,8 +1,14 @@
-# event-emitter-asyncio
+# Event Emitter (asyncio)
 
 Super simple event emitter in Python 3, built with asyncio. No decorators required. Built around a subset of the NodeJS [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) API. 
 
 A full write up and explanation for how this module works can be found [here](https://joeltok.com/blog/2021-3/building-an-event-bus-in-python).
+
+## Installation
+
+```sh
+pip install event_emitter_asyncio
+```
 
 ## Usage (Working example)
 
