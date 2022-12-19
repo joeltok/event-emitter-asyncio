@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event_emitter_asyncio"
+version = "1.0.0"
+authors = [
+  { name="Joel Tok", email="jttctc@gmail.com" },
+]
+description = "Super simple event emitter in Python 3, built with asyncio. No decorators required."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/joeltok/py-event-bus"
+"Bug Tracker" = "https://github.com/joeltok/py-event-bus/issues"
